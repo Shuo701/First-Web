@@ -1,0 +1,90 @@
+body {
+    /*主畫面的背景*/
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    /*上面的搜尋欄，問ＧＰＴ的*/
+    display: flex;/*讓裡面element可以彈性排列*/
+    justify-content: space-between;/*讓第一個東西第一個東西靠左，最後一個東西靠右，其他在中間*/
+    align-items: center;/*居中排列*/
+    background-color:rgb(4, 76, 148);
+    color: wheat;
+    padding: 10px 20px;
+}
+
+.logo {
+    /*logo*/
+    width: 24px;
+    height: 24px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 4px;/*圓角*/
+    border: none;
+    outline: none;
+}
+
+.nav-links a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 35px;
+    box-shadow: 0 0 5px black;
+}
+
+
+.sidebar ul {
+    list-style : decimal;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.feed {
+    width: 50%;
+    margin: 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.event{
+    background-color: white;
+    padding: 15px;
+    margin: 25px 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: auto;
+}
+
+.interest{
+    background-color: rgb(125, 182, 229);
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+    color: blue;
+    width: 50mm;
+}
